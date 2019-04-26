@@ -1,0 +1,166 @@
+#img1{
+    filter: blur(10px);
+    margin-left: 19px;
+}
+#img1 :hover{
+    transform: rotate(-10deg);
+
+    
+    
+}
+#img2{
+    filter: grayscale(100%);
+    margin-left: 19px;
+}
+#img3{
+    filter: sepia(90%);
+    margin-left: 19px;
+}
+#img4{
+    filter: grayscale(100%);
+    margin-left: 19px;
+}
+#img5{
+	margin-left: 19px;
+    
+}
+#img6{
+    filter: grayscale(100%);
+    margin-left: 19px;
+}
+.imagen{
+	margin-left: 100px;
+}
+
+
+
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+header{
+	height: 80px;
+	background: #4F666B;
+	color: #CFCFCF;
+	
+}
+.nombre{
+	width: 50%;
+	height: 100%;
+	float: left;
+	margin-top: 20px;
+	font-size: 30px;
+	font-family: 'Dancing Script', cursive;
+
+}
+.menu{
+	width: 50%;
+	height: 100%;
+	float: left;
+	margin-top: 20px;
+	
+}
+li{
+	list-style: none;
+	float: left;
+	padding: 10px;
+	font-size: 20px;
+}
+nav{
+	float: left;
+	margin-left: 400px;
+}
+a{
+	text-decoration: none;
+	color: #CFCFCF;
+	font-family: 'Dancing Script', cursive;
+}
+.nav{
+	background: #407760;
+	height: 600px;
+}
+img{
+	margin-left: 280px;
+	margin-top: 48px;
+	box-shadow: 2px 2px 0px 0px black;
+}
+section{
+	height: 600px;
+	background: #B98F04;
+
+}	
+.imagenes{
+	float:left;
+	margin-right: 80px;	
+}
+.letras{
+	height: 20px;
+
+	float: left;
+	margin-left: 410px;
+
+}
+
+#Paisaje{
+	color: black;
+}
+#Retrato{
+	color: black;
+	margin-left: 550px;
+}
+#img01:hover{
+    transition:all 1s;
+
+    transform: rotate(-10deg);
+    margin: 7px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px #82c3a6;
+
+}
+#img02:hover{
+    transition:all 1s;
+    transform: translate(6%,-1%);
+    box-shadow: 2px 2px 2px #82c3a6;
+}
+
+
+footer{
+	background: #848179;
+	height: 200px;
+
+}
+.datos{
+    font-family: 'Dancing Script', cursive;
+    color: black;
+ 	font-size: 20px;
+ 	margin-left: 80px;   
+ 	float: left;
+ 	margin-top: 20px;
+}
+.terminos{
+
+	 font-family: 'Dancing Script', cursive;
+    color: black;
+ 	font-size: 20px;
+ 	margin-left: 80px;   
+ 	float: left;
+ 	margin-top: 20px;
+}
+.redes{
+	 font-family: 'Dancing Script', cursive;
+    color: black;
+ 	font-size: 20px;
+ 	margin-left: 80px;   
+ 	float: left;
+ 	margin-top: 20px;
+}
+.derechos{
+	 font-family: 'Dancing Script', cursive;
+    color: black;
+ 	font-size: 20px;
+ 	margin-left: 80px;   
+ 	float: left;
+ 	margin-top: 20px;
+
+}
